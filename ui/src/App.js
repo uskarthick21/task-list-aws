@@ -12,12 +12,6 @@ const darkTheme = createTheme({
   },
 });
 
-const task = {
-  id: "1",
-  name: "do dishes",
-  completed: false
-}
-
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
